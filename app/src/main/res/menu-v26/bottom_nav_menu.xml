@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_local_team"
+        android:icon="@drawable/usuarios_alt"
+        android:title="@string/title_local_team" />
+    <item
+        android:id="@+id/navigation_visitor_team"
+        android:icon="@drawable/usuarios_alt"
+        android:title="@string/title_visitor_team"
+        android:iconTint="@color/Red"/>
+
+    <item
+        android:id="@+id/navigation_reglas"
+        android:icon="@drawable/reglas"
+        android:title="@string/title_rules" />
+
+    <item
+        android:id="@+id/navigation_extras"
+        android:icon="@drawable/menu_extras"
+        android:title="@string/title_extras" />
+
+</menu>

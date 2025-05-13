@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VolleyGo</string>
+    <string name="title_local_team">Equip Local</string>
+    <string name="title_visitor_team">Equip Visitant</string>
+    <string name="title_rules">Reglas</string>
+    <string name="title_extras">Extras</string>
+</resources>

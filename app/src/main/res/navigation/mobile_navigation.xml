@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_local_team">
+
+    <fragment
+        android:id="@+id/navigation_local_team"
+        android:name="com.example.volleygo.ui.LocalTeam.LocalTeamFragment"
+        android:label="@string/title_local_team"
+        tools:layout="@layout/fragment_local_team" />
+
+    <fragment
+        android:id="@+id/navigation_visitor_team"
+        android:name="com.example.volleygo.ui.VisitorTeam.VisitorTeamFragment"
+        android:label="@string/title_visitor_team"
+        tools:layout="@layout/fragment_visitor_team" />
+
+    <fragment
+        android:id="@+id/navigation_reglas"
+        android:name="com.example.volleygo.ui.Reglas.ReglasFragment"
+        android:label="@string/title_rules"
+        tools:layout="@layout/fragment_reglas" />
+
+    <fragment
+        android:id="@+id/navigation_extras"
+        android:name="com.example.volleygo.ui.Extras.ExtrasFrament"
+        android:label="@string/title_extras"
+        tools:layout="@layout/fragment_extras" />
+</navigation>
